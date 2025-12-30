@@ -1,0 +1,27 @@
+body{
+    background-color:grey;
+    display: flex;
+    flex-direction: column;   /* h2 वर, box खाली */
+    justify-content: center;  /* vertically center */
+    align-items: center;      /* horizontally center */
+    height: 80vh;
+    margin: 0;
+    gap: 10px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#reset{
+    background-color:#4267B2;
+    color: white;
+}
